@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MJRefresh (~> 3.1.15.3)
+  - YYKit (~> 1.0.9)
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 21ced3a053dfeb8af4471a58fbcea76d62ca3ab3
+
+COCOAPODS: 1.4.0

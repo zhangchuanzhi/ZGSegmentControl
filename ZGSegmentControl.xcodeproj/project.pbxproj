@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238185A320AD11CE008C4313 /* ZGAdaptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 238185A220AD11CE008C4313 /* ZGAdaptTool.m */; };
+		238185A620AD2EA0008C4313 /* ZGStudentCommontableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238185A520AD2EA0008C4313 /* ZGStudentCommontableView.m */; };
+		23CF7A9F20AC207E00D6A3DE /* ZGStudentCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF7A9E20AC207E00D6A3DE /* ZGStudentCommonModel.m */; };
+		23CF7AA220AC28B400D6A3DE /* ZGStudentCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF7AA120AC28B400D6A3DE /* ZGStudentCommonCell.m */; };
+		23CF7AA520AC36B700D6A3DE /* ZGBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CF7AA420AC36B700D6A3DE /* ZGBaseTableView.m */; };
+		23D4170D20ABD813007C7BAC /* ZGBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D4170C20ABD813007C7BAC /* ZGBaseModel.m */; };
+		4F67C927C281E60F88CDBBD8 /* libPods-ZGSegmentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F833A4062ADF6ECB53B72D30 /* libPods-ZGSegmentControl.a */; };
 		BC43886920AAE34000A45BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43886820AAE34000A45BAB /* AppDelegate.m */; };
 		BC43886C20AAE34000A45BAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43886B20AAE34000A45BAB /* ViewController.m */; };
 		BC43886F20AAE34000A45BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC43886D20AAE34000A45BAB /* Main.storyboard */; };
 		BC43887120AAE34100A45BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC43887020AAE34100A45BAB /* Assets.xcassets */; };
 		BC43887420AAE34100A45BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC43887220AAE34100A45BAB /* LaunchScreen.storyboard */; };
 		BC43887720AAE34100A45BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43887620AAE34100A45BAB /* main.m */; };
+		BC43887F20AAE36900A45BAB /* ZGSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BC43887E20AAE36900A45BAB /* ZGSegmentControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238185A120AD11CE008C4313 /* ZGAdaptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGAdaptTool.h; sourceTree = "<group>"; };
+		238185A220AD11CE008C4313 /* ZGAdaptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGAdaptTool.m; sourceTree = "<group>"; };
+		238185A420AD2EA0008C4313 /* ZGStudentCommontableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGStudentCommontableView.h; sourceTree = "<group>"; };
+		238185A520AD2EA0008C4313 /* ZGStudentCommontableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGStudentCommontableView.m; sourceTree = "<group>"; };
+		23CF7A9D20AC207E00D6A3DE /* ZGStudentCommonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGStudentCommonModel.h; sourceTree = "<group>"; };
+		23CF7A9E20AC207E00D6A3DE /* ZGStudentCommonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGStudentCommonModel.m; sourceTree = "<group>"; };
+		23CF7AA020AC28B400D6A3DE /* ZGStudentCommonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGStudentCommonCell.h; sourceTree = "<group>"; };
+		23CF7AA120AC28B400D6A3DE /* ZGStudentCommonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGStudentCommonCell.m; sourceTree = "<group>"; };
+		23CF7AA320AC36B700D6A3DE /* ZGBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGBaseTableView.h; sourceTree = "<group>"; };
+		23CF7AA420AC36B700D6A3DE /* ZGBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGBaseTableView.m; sourceTree = "<group>"; };
+		23D4170A20ABBF7D007C7BAC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		23D4170B20ABD813007C7BAC /* ZGBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGBaseModel.h; sourceTree = "<group>"; };
+		23D4170C20ABD813007C7BAC /* ZGBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGBaseModel.m; sourceTree = "<group>"; };
+		42B7D1B664B66B82AAE6718F /* Pods-ZGSegmentControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSegmentControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSegmentControl/Pods-ZGSegmentControl.debug.xcconfig"; sourceTree = "<group>"; };
 		BC43886420AAE34000A45BAB /* ZGSegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGSegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC43886720AAE34000A45BAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BC43886820AAE34000A45BAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +48,10 @@
 		BC43887320AAE34100A45BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC43887520AAE34100A45BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC43887620AAE34100A45BAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC43887D20AAE36900A45BAB /* ZGSegmentControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGSegmentControl.h; sourceTree = "<group>"; };
+		BC43887E20AAE36900A45BAB /* ZGSegmentControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGSegmentControl.m; sourceTree = "<group>"; };
+		CC63498B85424D4802405591 /* Pods-ZGSegmentControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSegmentControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSegmentControl/Pods-ZGSegmentControl.release.xcconfig"; sourceTree = "<group>"; };
+		F833A4062ADF6ECB53B72D30 /* libPods-ZGSegmentControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZGSegmentControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F67C927C281E60F88CDBBD8 /* libPods-ZGSegmentControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BC1DF658ECEB324D5AB0B3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42B7D1B664B66B82AAE6718F /* Pods-ZGSegmentControl.debug.xcconfig */,
+				CC63498B85424D4802405591 /* Pods-ZGSegmentControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC43885B20AAE34000A45BAB = {
 			isa = PBXGroup;
 			children = (
 				BC43886620AAE34000A45BAB /* ZGSegmentControl */,
 				BC43886520AAE34000A45BAB /* Products */,
+				3BC1DF658ECEB324D5AB0B3F /* Pods */,
+				FEEEF663134889C825C3369D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +100,36 @@
 				BC43886820AAE34000A45BAB /* AppDelegate.m */,
 				BC43886A20AAE34000A45BAB /* ViewController.h */,
 				BC43886B20AAE34000A45BAB /* ViewController.m */,
+				BC43887D20AAE36900A45BAB /* ZGSegmentControl.h */,
+				BC43887E20AAE36900A45BAB /* ZGSegmentControl.m */,
+				23D4170B20ABD813007C7BAC /* ZGBaseModel.h */,
+				23D4170C20ABD813007C7BAC /* ZGBaseModel.m */,
+				238185A120AD11CE008C4313 /* ZGAdaptTool.h */,
+				238185A220AD11CE008C4313 /* ZGAdaptTool.m */,
+				23CF7A9D20AC207E00D6A3DE /* ZGStudentCommonModel.h */,
+				23CF7A9E20AC207E00D6A3DE /* ZGStudentCommonModel.m */,
+				23CF7AA020AC28B400D6A3DE /* ZGStudentCommonCell.h */,
+				23CF7AA120AC28B400D6A3DE /* ZGStudentCommonCell.m */,
+				23CF7AA320AC36B700D6A3DE /* ZGBaseTableView.h */,
+				23CF7AA420AC36B700D6A3DE /* ZGBaseTableView.m */,
+				238185A420AD2EA0008C4313 /* ZGStudentCommontableView.h */,
+				238185A520AD2EA0008C4313 /* ZGStudentCommontableView.m */,
 				BC43886D20AAE34000A45BAB /* Main.storyboard */,
 				BC43887020AAE34100A45BAB /* Assets.xcassets */,
 				BC43887220AAE34100A45BAB /* LaunchScreen.storyboard */,
 				BC43887520AAE34100A45BAB /* Info.plist */,
 				BC43887620AAE34100A45BAB /* main.m */,
+				23D4170A20ABBF7D007C7BAC /* PrefixHeader.pch */,
 			);
 			path = ZGSegmentControl;
+			sourceTree = "<group>";
+		};
+		FEEEF663134889C825C3369D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F833A4062ADF6ECB53B72D30 /* libPods-ZGSegmentControl.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC43887A20AAE34100A45BAB /* Build configuration list for PBXNativeTarget "ZGSegmentControl" */;
 			buildPhases = (
+				78C067F0C2CA941426D9C12C /* [CP] Check Pods Manifest.lock */,
 				BC43886020AAE34000A45BAB /* Sources */,
 				BC43886120AAE34000A45BAB /* Frameworks */,
 				BC43886220AAE34000A45BAB /* Resources */,
+				04A23B1CF92B7A411A53B29B /* [CP] Embed Pods Frameworks */,
+				74EB5364F524800040504749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +200,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A23B1CF92B7A411A53B29B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSegmentControl/Pods-ZGSegmentControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74EB5364F524800040504749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZGSegmentControl/Pods-ZGSegmentControl-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSegmentControl/Pods-ZGSegmentControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C067F0C2CA941426D9C12C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZGSegmentControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC43886020AAE34000A45BAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D4170D20ABD813007C7BAC /* ZGBaseModel.m in Sources */,
+				23CF7A9F20AC207E00D6A3DE /* ZGStudentCommonModel.m in Sources */,
 				BC43886C20AAE34000A45BAB /* ViewController.m in Sources */,
+				23CF7AA520AC36B700D6A3DE /* ZGBaseTableView.m in Sources */,
 				BC43887720AAE34100A45BAB /* main.m in Sources */,
+				238185A620AD2EA0008C4313 /* ZGStudentCommontableView.m in Sources */,
+				23CF7AA220AC28B400D6A3DE /* ZGStudentCommonCell.m in Sources */,
+				BC43887F20AAE36900A45BAB /* ZGSegmentControl.m in Sources */,
 				BC43886920AAE34000A45BAB /* AppDelegate.m in Sources */,
+				238185A320AD11CE008C4313 /* ZGAdaptTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +406,12 @@
 		};
 		BC43887B20AAE34100A45BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B7D1B664B66B82AAE6718F /* Pods-ZGSegmentControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGSegmentControl/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGSegmentControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +425,12 @@
 		};
 		BC43887C20AAE34100A45BAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC63498B85424D4802405591 /* Pods-ZGSegmentControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZGSegmentControl/PrefixHeader.pch";
 				INFOPLIST_FILE = ZGSegmentControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
